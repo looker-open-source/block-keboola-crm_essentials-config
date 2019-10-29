@@ -2,14 +2,22 @@ project_name: "block-keboola-crm_essentials-config"
 
 ################ Constants ################
 
-constant: CONFIG_PROJECT_NAME {
-  value: "block-keboola-crm_essentials-config"
-}
-
-constant: CONNECTION {
-  value: "keboola_block_crm_essentials"
-}
-
 constant: SCHEMA_NAME {
-  value: "WORKSPACE_542685775"
+  value: "default value"
+  export: override_required
+}
+
+constant: SFDC_domain {
+  value: "default value"
+  export: override_required
+}
+
+constant: hubspot_account_id {
+  value: "default value"
+  export: override_required
+}
+
+constant: pipedrive_domain {
+  value: "default value"
+  export: override_required
 }
